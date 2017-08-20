@@ -47,7 +47,7 @@ class LoginForm extends Component {
     return (
       <Card>
         <CardSection>
-          <InputField
+          <InputField   //referred to as a controlled component
             placeholder="user@gmail.com"
             label="Email"
             value={this.state.email}
